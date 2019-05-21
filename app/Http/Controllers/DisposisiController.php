@@ -145,5 +145,9 @@ class DisposisiController extends Controller
     private function surats ()
     {
         return Surat::whereTipe('masuk1')->pluck('no_surat','id');
+        return Surat::where(function ($query) {
+            $query->where('tipe','internal')
+                ->orWhere('tipe','eksternal');
+            })->pluck('no_surat','id');
     }
 }
