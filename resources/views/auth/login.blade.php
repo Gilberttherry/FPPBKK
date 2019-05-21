@@ -47,6 +47,7 @@
                             </div>
                         </div>
                     </form>
+                        <a href="./register"><button class="btn btn-primary">Daftar</button></a>
                 </div>
             </div>
         </div>

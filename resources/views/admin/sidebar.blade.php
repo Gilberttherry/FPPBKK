@@ -1,10 +1,10 @@
-<div class="col-md-3">
-    <div class="panel panel-default panel-flush">
-        <div class="panel-heading">
+<div class="col-md-3" style="background-color: : #4d0000 !important">
+    <div class="panel panel-default panel-flush" style="background-color: : #4d0000 !important">
+        <div class="panel-heading" style="background-color: : #4d0000 !important">
             Sidebar
         </div>
 
-        <div class="panel-body">
+        <div class="panel-body" style="background-color: : #4d0000 !important">
             <ul class="nav" role="tablist">
                 <li role="presentation">
                     <a href="{{ url('/') }}">Home</a>
